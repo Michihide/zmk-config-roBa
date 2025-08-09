@@ -81,10 +81,10 @@
 
         default_layer {
             bindings = <
-&kp Q                   &kp W                &mt LC(LA(E)) E  &mt LC(LA(R)) R  &mt LC(LA(T)) T                                                       &mt LC(LA(LEFT_ARROW)) Y  &mt LC(LA(U)) U           &mt LA(LC(I)) I         &kp O                      &kp P
-&kp A                   &mt LC(LA(ENTER)) S  &kp D            &kp F            &kp G            &kp LS(LG(S))              &mt LC(LA(UP_ARROW)) TAB  &kp H                     &mt LC(LA(J)) J           &mt LC(LA(K)) K         &mt LC(LA(RIGHT_ARROW)) L  &lt_to_layer_0 4 MINUS
-&mt LEFT_SHIFT Z        &kp X                &kp C            &kp V            &kp B            &mkp MB1                   &mkp MB2                  &kp N                     &mt LC(LA(DOWN_ARROW)) M  &lt_to_layer_0 5 COMMA  &kp DOT                    &kp SLASH
-&lt_to_layer_0 6 LCTRL  &mo 3                &kp LALT         &kp LGUI         &mt LCTRL SPACE  &lt_to_layer_0 3 RGUI      &kp BACKSPACE             &lt_to_layer_0 1 ENTER                                                                                 &lt_to_layer_0 2 GRAVE
+&kp Q             &kp W                &mt LC(LA(E)) E  &mt LC(LA(R)) R  &mt LC(LA(T)) T                                                       &mt LC(LA(LEFT_ARROW)) Y  &mt LC(LA(U)) U           &mt LA(LC(I)) I         &kp O                      &kp P
+&lt 6 A           &mt LC(LA(ENTER)) S  &kp D            &kp F            &kp G            &kp LS(LG(S))              &mt LC(LA(UP_ARROW)) TAB  &kp H                     &mt LC(LA(J)) J           &mt LC(LA(K)) K         &mt LC(LA(RIGHT_ARROW)) L  &lt_to_layer_0 4 MINUS
+&mt LEFT_SHIFT Z  &kp X                &kp C            &kp V            &kp B            &mkp MB1                   &mkp MB2                  &kp N                     &mt LC(LA(DOWN_ARROW)) M  &lt_to_layer_0 5 COMMA  &kp DOT                    &kp SLASH
+&kp LCTRL         &mo 3                &kp LALT         &kp LGUI         &mt LCTRL SPACE  &lt_to_layer_0 3 RGUI      &kp BACKSPACE             &lt_to_layer_0 1 ENTER                                                                                 &lt_to_layer_0 2 GRAVE
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;

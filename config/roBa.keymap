@@ -81,10 +81,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W  &mt LC(LA(E)) E  &mt LC(LA(R)) R  &mt LC(LA(T)) T                                            &mt LC(LA(UP_ARROW)) Y    &mt LC(LA(U)) U  &mt LA(LC(I)) I  &kp O    &lt_to_layer_0 5 P
-&kp A             &kp S  &mt LC(LA(D)) D  &mt LC(LA(F)) F  &mt LC(LA(G)) G  &kp LS(LG(S))              &kp TAB        &mt LC(LA(ENTER)) H       &mt LC(LA(J)) J  &mt LC(LA(K)) K  &kp L    &kp MINUS
-&mt LEFT_SHIFT Z  &kp X  &kp C            &kp V            &kp B            &mkp MB1                   &mkp MB2       &mt LA(LC(DOWN_ARROW)) N  &kp M            &kp COMMA        &kp DOT  &kp SLASH
-&mo 6             &mo 3  &kp LALT         &kp LGUI         &mt LCTRL SPACE  &lt_to_layer_0 3 RGUI      &kp BACKSPACE  &lt_to_layer_0 1 ENTER                                               &lt_to_layer_0 2 GRAVE
+&kp Q             &kp W  &mt LC(LA(E)) E  &mt LC(LA(R)) R  &mt LC(LA(T)) T                                                       &mt LC(LA(LEFT_ARROW)) Y   &mt LC(LA(U)) U           &mt LA(LC(I)) I  &kp O    &lt_to_layer_0 5 P
+&kp A             &kp S  &mt LC(LA(D)) D  &mt LC(LA(F)) F  &mt LC(LA(G)) G  &kp LS(LG(S))              &mt LC(LA(UP_ARROW)) TAB  &mt LC(LA(ENTER)) H        &mt LC(LA(J)) J           &mt LC(LA(K)) K  &kp L    &kp MINUS
+&mt LEFT_SHIFT Z  &kp X  &kp C            &kp V            &kp B            &mkp MB1                   &mkp MB2                  &mt LA(LC(RIGHT_ARROW)) N  &mt LC(LA(DOWN_ARROW)) M  &kp COMMA        &kp DOT  &kp SLASH
+&mo 6             &mo 3  &kp LALT         &kp LGUI         &mt LCTRL SPACE  &lt_to_layer_0 3 RGUI      &kp BACKSPACE             &lt_to_layer_0 1 ENTER                                                         &lt_to_layer_0 2 GRAVE
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;

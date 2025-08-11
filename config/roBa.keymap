@@ -44,16 +44,6 @@
             bindings = <&kp LC(LA(ENTER))>;
             key-positions = <11 12 13>;
         };
-
-        up {
-            bindings = <&kp LA(LC(UP_ARROW))>;
-            key-positions = <1 2>;
-        };
-
-        down {
-            bindings = <&kp LA(LC(DOWN_ARROW))>;
-            key-positions = <24 25>;
-        };
     };
 
     macros {

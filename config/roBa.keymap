@@ -71,13 +71,13 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W                &mt LC(LA(E)) E  &mt LC(LA(R)) R  &mt LC(LA(T)) T                                            &kp Y                   &mt LC(LA(U)) U  &mt LA(LC(I)) I         &kp O    &kp P
-&lt 6 A           &mt LC(LA(ENTER)) S  &kp D            &kp F            &kp G            &kp LS(LG(S))              &kp TAB        &kp H                   &mt LC(LA(J)) J  &mt LC(LA(K)) K         &kp L    &lt_to_layer_0 4 MINUS
-&mt LEFT_SHIFT Z  &kp X                &kp C            &kp V            &kp B            &mkp MB1                   &kp ESCAPE     &kp N                   &kp M            &lt_to_layer_0 5 COMMA  &kp DOT  &lt_to_layer_0 2 SLASH
-&kp LCTRL         &mo 3                &kp LALT         &kp LGUI         &mt LCTRL SPACE  &lt_to_layer_0 3 RGUI      &kp BACKSPACE  &lt_to_layer_0 1 ENTER                                                    &kp GRAVE
+&kp Q      &kp W                &mt LC(LA(E)) E  &mt LC(LA(R)) R  &mt LC(LA(T)) T                                    &kp Y                   &mt LC(LA(U)) U  &mt LA(LC(I)) I         &kp O    &kp P
+&lt 6 A    &mt LC(LA(ENTER)) S  &kp D            &kp F            &kp G            &kp LS(LG(S))      &kp TAB        &kp H                   &mt LC(LA(J)) J  &mt LC(LA(K)) K         &kp L    &lt_to_layer_0 4 MINUS
+&kp LCTRL  &mt LEFT_SHIFT Z     &kp X            &kp C            &kp V            &kp ESCAPE         &kp B          &kp N                   &kp M            &lt_to_layer_0 5 COMMA  &kp DOT  &lt_to_layer_0 2 SLASH
+&kp GRAVE  &kp TAB              &kp LALT         &kp LGUI         &kp RCMD         &kp SPACE          &kp BACKSPACE  &lt_to_layer_0 1 ENTER                                                    &mo 3
             >;
 
-            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
+            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
         };
 
         SYMBOL {

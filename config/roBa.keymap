@@ -97,8 +97,8 @@
         NUM_ARROW {
             bindings = <
 &kp MINUS  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp PLUS                                           &bl BL_DEC    &bl BL_INC      &trans          &trans           &trans
-&kp SLASH  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &trans  &kp C_VOL_DN  &kp C_VOL_UP    &kp UP_ARROW    &kp RIGHT_ARROW  &trans
-&kp LCTRL  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL                    &trans  &kp ESCAPE    &kp LEFT_ARROW  &kp DOWN_ARROW  &trans           &trans
+&kp SLASH  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &trans  &kp C_VOL_DN  &kp C_VOL_UP    &kp UP_ARROW    &trans           &trans
+&kp LCTRL  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL                    &trans  &kp ESCAPE    &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans
 &kp LSHFT  &kp KP_N0        &kp LALT         &kp LGUI         &trans        &trans                       &trans  &trans                                                         &trans
             >;
         };

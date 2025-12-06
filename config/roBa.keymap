@@ -76,10 +76,10 @@
 
         default_layer {
             bindings = <
-&kp Q      &kp W    &kp E     &kp R                &kp T                                       &kp Y                   &mt LC(LA(U)) U  &mt LA(LC(I)) I         &kp O    &kp P
-&kp A      &kp S    &kp D     &kp F                &kp G     &kp LS(LG(S))      &kp TAB        &kp H                   &mt LC(LA(J)) J  &mt LC(LA(K)) K         &kp L    &lt_to_layer_0 4 MINUS
-&kp LCTRL  &kp Z    &kp X     &kp C                &kp V     &kp ESCAPE         &kp B          &kp N                   &kp M            &lt_to_layer_0 5 COMMA  &kp DOT  &lt_to_layer_0 2 SLASH
-&kp GRAVE  &kp TAB  &kp LALT  &mt LEFT_SHIFT LGUI  &kp RCMD  &kp SPACE          &kp BACKSPACE  &lt_to_layer_0 1 ENTER                                                    &mo 3
+&kp Q      &kp W         &kp E     &kp R     &kp T                                             &kp Y                   &mt LC(LA(U)) U  &mt LA(LC(I)) I         &kp O    &kp P
+&kp A      &kp S         &kp D     &kp F     &kp G           &kp LS(LG(S))      &kp TAB        &kp H                   &mt LC(LA(J)) J  &mt LC(LA(K)) K         &kp L    &lt_to_layer_0 4 MINUS
+&kp LCTRL  &kp Z         &kp X     &kp C     &kp V           &kp ESCAPE         &kp B          &kp N                   &kp M            &lt_to_layer_0 5 COMMA  &kp DOT  &lt_to_layer_0 2 SLASH
+&kp GRAVE  &kp LEFT_ALT  &kp LALT  &kp LCMD  &mt LSHFT RCMD  &kp SPACE          &kp BACKSPACE  &lt_to_layer_0 1 ENTER                                                    &mo 3
             >;
 
             sensor-bindings = <&inc_dec_kp DOWN_ARROW UP_ARROW>;
